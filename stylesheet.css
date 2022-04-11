@@ -1,0 +1,696 @@
+* {
+    box-sizing: border-box;
+    font-family:Arial,Franklin Gothic Book,calibri, sans-serif;
+
+    }
+
+body {
+    margin:0;
+    padding: 0;
+   }
+
+   .img {
+    max-width: 100%;
+}
+.leftcolumn {
+    width:25%;
+    position:fixed;
+    background-color: rgb(88, 87, 93);
+    height:100vh;
+}
+.logo {
+    margin-top: 50px;
+}
+.menu {
+    background-color: rgb(61, 61, 63);
+}
+.list {
+    margin-top: 50px;
+   }
+.menu div {
+line-height:50px;
+font-size: 13px;
+font-weight: lighter;
+ text-align: center;
+border-bottom:1px solid rgb(88, 87, 93) ;
+}
+.home {
+    border-left: 4px solid rgb(77, 153, 183);
+}
+.aboutus {
+    border-left: 4px solid rgb(238, 184, 84);
+}
+.services {
+    border-left: 4px solid rgb(148, 68, 223);
+}
+.portfolio {
+    border-left: 4px solid rgb(6, 215, 117, 0.999);
+}
+.contact {
+    border-left: 4px solid rgb(246, 17, 113);
+}
+
+.list a {
+    text-decoration: none;
+    color:rgb(227, 221, 221);
+}
+.home a:hover {
+    color:rgb(77, 153, 183);
+}
+.aboutus a:hover {
+    color:rgb(238, 184, 84);
+}
+.services a:hover {
+    color:rgb(148, 68, 223);
+}
+.portfolio a:hover {
+    color:rgb(6, 215, 117, 0.999);
+}
+.contact a:hover {
+    color:rgb(246, 17, 113);
+}
+
+
+/*over*/
+
+
+/* RIGHT SIDE */
+.rightcolumn {
+    width:75%;
+    margin-left: 25%;
+}
+
+
+
+.backgroundimg {
+    background-image: url("flomicpic/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:90vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    position:relative;
+}
+.layout {
+    margin: auto;
+    justify-content:center;
+    align-items: center;
+    color:white;
+    text-align: center;
+    display:block;
+}
+.layout h1 {
+    font-size: 45px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bolder;
+}
+.layout h3 {
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: medium;
+    line-height: 30px;
+}
+.rtbutton, .lmbutton, .sebutton {
+    width:130px;
+    height:50px;
+    color:white;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: rgb(63, 187, 236);
+}
+.input {
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    margin:auto;
+    padding-bottom:30px;
+}
+
+.welcome {
+    width:85%;
+    margin:auto;
+    margin-top:50px;
+}
+.welcome h1 {
+    color:rgb(77, 153, 183);
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.welcome p {
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    bottom: 15px;
+    color: rgb(141, 141, 144);
+    line-height: 25px;
+}
+.magna {
+    color:rgb(54, 151, 190);
+}
+
+ .orange, .violet, .green, .pink {
+    display:grid;
+    margin-top: 30px;
+}
+
+.line {
+    width:100%;
+    height:5px;
+    background-color: rgb(238, 184, 84);
+}
+
+.orange span, .violet span, .green span, .pink span{
+    grid-template-columns: auto;
+   background-color: rgb(238, 184, 84);
+   width:20%;
+   color:rgb(249, 244, 244);
+   font-size: 20px;
+   text-align: center;
+   padding:15px;
+   font-weight: 100;
+}
+
+.box {
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.box1 {
+    max-width:33.3333333333333%;
+    padding:0 15px;
+}
+.box :first-child {
+    padding-left:0;
+}
+.box :last-child {
+    padding-right:0;
+}
+
+.box1 h2 {
+    font-size: 20px;
+    color:rgb(241, 198, 116);
+    font-weight: 100;
+    text-align: center;
+}
+.box p {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(141, 141, 144);
+}
+.content {
+    display:flex;
+    flex-wrap: wrap;
+    }
+.content1 {
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+.leftside {
+    width:65%;
+    padding-right: 35px;
+}
+.rightside1 {
+    width:35%;
+    padding:20px;
+    }
+
+    .skill {
+        width:100%;
+        font-size: 15px;
+        font-weight: lighter;
+        color:rgb(193, 149, 235);
+    }
+    h4 {
+        margin:3px;
+    }
+      
+    .skill li {
+        list-style: none;
+        padding:5px 0;
+    } 
+    .bar {
+        width:100%;
+        background-color: #e7e0e0;
+        height:20px;
+        border:1px solid rgb(129, 126, 126);
+        border-radius: 50px;
+        display: block;
+        overflow: hidden;
+    }
+    .bar span {
+        height:20px;
+        float:left;
+        background-color: rgb(148, 68, 223);
+    }
+    .graphics {
+        width:90%;
+        animation: graphics 2s;
+    }
+    .htmlcss {
+        width:75%;
+        animation: htmlcss 2s;
+    }
+    .wordpress {
+        width:66%;
+        animation: wordpress 2s;
+    }
+    .marketing {
+        width:88%;
+        animation: marketing 2s;
+    }
+    
+    @keyframes graphics {
+        0% {
+            width:0%;
+        }
+        100% {
+            width:90%;
+        }
+    }
+    @keyframes htmlcss {
+        0% {
+            width:0%;
+        }
+        100% {
+            width:75%;
+        }
+    }
+    @keyframes wordpress {
+        0% {
+            width:0%;
+        }
+        100% {
+            width:66%;
+        }
+    }
+    @keyframes marketing {
+        0% {
+            width:0%;
+        }
+        100% {
+            width:88%;
+        }
+    }
+      
+    
+.leftside h1{
+    text-align: left;
+    color:rgb(241, 198, 116);
+    font-weight: 100;
+}
+.leftside p {
+    padding-top: 20px;
+    text-align: left;
+    line-height: 25px;
+    color: rgb(141, 141, 144);
+    font-size: 15px;
+}
+.rightside {
+    width:35%;
+    padding-top: 50px;
+}
+
+.line1 {
+    width:100%;
+    height:5px;
+    background-color: rgb(148, 68, 223);
+}
+.violet span {
+    background-color: rgb(148, 68, 223);
+}
+.design {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+    padding-top: 50px;
+}
+.design div {
+    background-color: rgb(148, 68, 223);
+    text-align:center;
+    padding:10px;
+}
+.design :first-child {
+    margin-left: 0;
+}
+.design :last-child {
+    margin-right: 0;
+}
+.fa-solid {
+    font-size: 22px;
+    color:white;
+    padding-top: 10px;
+}
+.design span {
+    font-size: 20px;
+    color:white;
+}
+.leftside1 {
+    width:65%;
+    padding-right: 35px;
+}
+.leftside1 h2{
+    text-align: left;
+    color:rgb(193, 149, 235);
+    font-weight: 100;
+    font-size: 25px;
+}
+.leftside1 p {
+    padding-top: 20px;
+    text-align: left;
+    line-height: 25px;
+    color: rgb(141, 141, 144);
+    font-size: 15px;
+}
+
+.line2 {
+    width:100%;
+    height:5px;
+    background-color:rgb(6, 215, 117, 0.999);
+}
+.green span {
+    background-color: rgba(6, 215, 117, 0.999);
+}
+
+
+.port, .port1 {
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .port {
+       padding-top: 50px;
+       padding-bottom: 30px;
+   }
+.port div, .port1 div {
+    width:33.333333333333333333333333%;
+    padding:0 15px;
+}
+
+.port :first-child, .port1 :first-child {
+    padding-left:0;
+}
+.port :last-child, .port1 :last-child {
+    padding-right:0;
+}
+.port h4, .port1 h4 {
+    color:#5ed89fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    padding:20px 0;
+}
+.lmbutton, .sebutton {
+    background-color:rgba(6, 215, 117, 0.999);
+    border-bottom: 3px solid rgba(2, 135, 73, 0.999);
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    cursor: pointer;
+}
+.load {
+    text-align:center ;
+    padding-top: 25px;
+}
+
+
+.line3 {
+    width:100%;
+    height:5px;
+    background-color: rgb(246, 17, 113);
+}
+.pink span {
+    background-color: rgb(246, 17, 113);
+}
+.pink {
+    margin-top: 60px;
+}
+iframe {
+    padding-top: 60px;
+    }
+
+
+.document {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+    padding-top: 50px;
+    color:rgb(115, 113, 113);
+    }
+.document div {
+    padding:15px;
+}
+input[type="text"], input[type="email"] {
+    width:100%;
+    padding: 15px;
+    font-size: 15px;
+    border:1px solid rgb(212, 207, 207);
+}
+.document div:first-child {
+    padding-left:0;
+}
+.document div:last-child {
+    padding-right:0;
+}
+.document1 {
+    text-align: left;
+    padding-top:20px;
+    display:grid;
+    width:100%;
+    color:rgb(115, 113, 113);
+}
+textarea {
+   font-size: 15px;
+   height:200px;
+   border:1px solid rgb(212, 207, 207);
+}
+
+
+.sebutton {
+    background-color: rgb(246, 17, 113);
+    border-bottom: 3px solid rgb(144, 3, 62);
+    cursor: pointer;
+    width: 150px;
+}
+.send {
+    text-align:left;
+    padding-top: 30px;
+}
+
+footer {
+    width:100%;
+    margin-top: 60px;
+    background-color: rgb(88, 87, 93);
+    border-left: 2px solid white;
+}
+footer div {
+    width:85%;
+    margin:auto;
+    padding: 60px 0;
+    text-align: center;
+}
+.fa-brands {
+    color:white;
+    background-color:rgb(61, 61, 63);
+    font-size: 15px;
+    padding:10px;
+}
+.fas {
+    background-color:rgb(61, 61, 63);
+    font-size: 15px;
+    padding:10px;
+    color:white;
+}
+
+.footer {
+    width:100%;
+    background-color: rgb(61, 61, 63);
+    border-left: 2px solid white;
+}
+.footer div {
+    width:85%;
+    margin: auto;
+    color:rgb(135, 135, 140);
+    padding:10px;
+    padding-left: 0;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.footer span {
+    color:rgb(227, 219, 219);
+}
+
+.container {
+    background:url("katakimage/katak11.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    background-attachment: fixed;
+    width:1005;
+    position:relative:absolute;
+    height:100%;
+}
+.container span {
+    color:blue;
+    font-size:3vw;
+    font-family:arial;
+    text-align: center;
+    padding:10px;
+    position:absolute;
+    top:0%;
+    left:50%;
+    height:100%;
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+    body {
+        margin:0;
+        max-width: 768px;
+    }
+    .leftcolumn {
+        width:20%;
+        position:fixed;
+        height:120vh;
+    }
+    .rightcolumn {
+        width:80%;
+        margin-left: 20%;
+    }
+    .orange span , .violet span, .green span, .pink span {
+        width:40%;
+    }
+    .box1 {
+        max-width: 100%;
+        text-align: center;
+        margin: auto;
+        padding: 0;
+    }
+
+    .leftside, .rightside, .leftside1, .rightside1 {
+        width:100%;
+        padding: 0;
+    }
+    .leftside p, .leftside1 p {
+        text-align: justify;
+        }
+    .leftside h1, .leftside1 h2 {
+            text-align:center;
+            }
+    
+    .port div, .port1 div {
+        width:80%;
+        margin:auto;
+        text-align: center;
+        padding: 0;
+    }
+    .design {
+        width:100%;
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 30px;
+    }
+    
+}
+
+@media only screen and (max-width:500px) {
+    body {
+        margin:0;
+        max-width:500px;
+        padding: 0;
+    }
+    .backgroundimg {
+        height:50vh;
+    }
+   .input {
+       padding-bottom: 5px;
+   }
+    .list, .logo {
+        margin:30px 0;
+    }
+    
+    .menu div {
+        line-height: 30px;
+    }
+
+    .leftcolumn {
+        width:20%;
+        position:fixed;
+        height:120vh;
+    }
+    .rightcolumn {
+        width:80%;
+        margin-left: 20%;
+    }
+    .welcome p {
+        text-align: justify;
+        padding-top: 10px;
+    }
+    .box p {
+        text-align: center;
+        padding: 0;
+    }
+    .orange span , .violet span, .green span, .pink span {
+        width:50%;
+    }
+    .box1 {
+        max-width: 100%;
+        text-align: center;
+        margin: auto;
+        padding: 10px 0;
+    }
+    .content {
+        margin-top: 0;
+    }
+    .green {
+        margin-top: 50px;
+    }
+    .leftside, .rightside, .leftside1, .rightside1 {
+        width:100%;
+        padding: 0;
+    }
+    .leftside p, .leftside1 p {
+        text-align: justify;
+        }
+    .leftside h1, .leftside1 h2 {
+            text-align:center;
+            }
+     .port h4, .port1 h4 {
+                padding-top: 0;
+            }
+        
+    
+    .port div, .port1 div {
+        width:100%;
+        margin:auto;
+        text-align: center;
+        padding: 0;
+    }
+    .design {
+        width:95%;
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 30px;
+        margin: auto;
+    }
+    
+    .document {
+        display:grid;
+        grid-template-columns: auto;
+        width:100%;
+        padding-top:10px;
+    }
+    .document div {
+        padding: 0;
+        padding-top:15px;
+    }
+    footer, .footer {
+        border-left: 4px solid white;
+    }
+
+}
+
+
